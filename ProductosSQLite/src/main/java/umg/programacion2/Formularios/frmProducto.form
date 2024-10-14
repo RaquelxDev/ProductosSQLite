@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="umg.programacion2.Formularios.frmProducto">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="6" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="6" y="7" width="979" height="429"/>
+    </constraints>
+    <properties>
+      <background color="-10119255"/>
+      <font name="DialogInput" size="22" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6c5a7" class="javax.swing.JLabel" binding="lblCodigo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="CÓDIGO DEL PRODUCTO"/>
+        </properties>
+      </component>
+      <component id="3aa8e" class="javax.swing.JLabel" binding="lblNombre">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="NOMBRE DEL PRODUCTO"/>
+        </properties>
+      </component>
+      <component id="d43b2" class="javax.swing.JLabel" binding="lblOrigen">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="ORIGEN DEL PRODUCTO"/>
+        </properties>
+      </component>
+      <component id="4336a" class="javax.swing.JLabel" binding="lblPrecio">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="PRECIO"/>
+        </properties>
+      </component>
+      <component id="fc5d4" class="javax.swing.JLabel" binding="lblExistencia">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="EXISTENCIA"/>
+        </properties>
+      </component>
+      <component id="617dd" class="javax.swing.JLabel" binding="lblReportes">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-13297121"/>
+          <text value="TIPO DE REPORTE"/>
+        </properties>
+      </component>
+      <component id="8daf1" class="javax.swing.JTextField" binding="textFieldCodigo">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="47d5f" class="javax.swing.JTextField" binding="textFieldNombre">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="85ba4" class="javax.swing.JComboBox" binding="comboBoxOrigen">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="17759" class="javax.swing.JTextField" binding="textFieldPrecio">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6a510" class="javax.swing.JTextField" binding="textFieldExistencia">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="46031" class="javax.swing.JComboBox" binding="comboBoxReportes">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5628f" class="javax.swing.JButton" binding="buttonBuscar">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4858257"/>
+          <font name="Lucida Sans Unicode" style="1"/>
+          <text value="Buscar producto por código"/>
+        </properties>
+      </component>
+      <component id="d86f4" class="javax.swing.JButton" binding="buttonBorrar">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4858257"/>
+          <font name="Lucida Sans Typewriter" style="1"/>
+          <text value="Eliminar Producto"/>
+        </properties>
+      </component>
+      <component id="19d4" class="javax.swing.JButton" binding="buttonActualizar">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4858257"/>
+          <font name="Lucida Sans Typewriter" style="1"/>
+          <text value="Actualizar Producto"/>
+        </properties>
+      </component>
+      <component id="b7232" class="javax.swing.JButton" binding="buttonPDF">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4858257"/>
+          <font name="Lucida Sans Typewriter" style="1"/>
+          <text value="Generar Reporte"/>
+        </properties>
+      </component>
+      <component id="b50e0" class="javax.swing.JButton" binding="buttonGuardar">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4858257"/>
+          <font name="Lucida Sans Typewriter" style="1"/>
+          <text value="Guardar Producto"/>
+        </properties>
+      </component>
+      <hspacer id="13c5f">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e8af9">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e8a3c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="89fef" class="javax.swing.JLabel" binding="lblTitulo">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13297121"/>
+          <font name="DialogInput" size="26" style="1"/>
+          <foreground color="-13297121"/>
+          <text value="Catalogo de Productos"/>
+        </properties>
+      </component>
+      <hspacer id="ddb70">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2eabe">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="739f7">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="68bce" class="javax.swing.JCheckBox" binding="checkBoxAgrupar">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1717389"/>
+          <font name="Lucida Sans Typewriter" style="1"/>
+          <foreground color="-13297121"/>
+          <text value="AGRUPAR DATOS"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
